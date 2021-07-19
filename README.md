@@ -7,4 +7,4 @@ A collection of various assets I've created using Nord Theme color palette! Curr
 
 
 <p align="center">
-  <img width="800" height="500" src="https://user-images.githubusercontent.com/84479769/126204282-d74b2abe-ee57-4eed-9fde-44075f006427.png">
+  <img width="800" height="500" src="https://user-images.githubusercontent.com/84479769/126212274-ab3786bf-f9e5-4c06-b6ab-6c1fd4f10b19.png">
