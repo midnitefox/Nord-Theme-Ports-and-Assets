@@ -3,7 +3,7 @@
 
 Download the zip file and extract somewhere persistent, like 'My Documents'.
 Optional; edit the html to include your own name and category/link preferences.
-Navigate to chrome://extensions/ in your Chrome browser.
+Navigate to chrome://extensions/ in your Chromium-based browser (Edge/Chrome/Brave/Opera).
 Toggle Developer mode in the top right.
 Click Load unpacked and select the folder in which your startpage (and the new manifest.json file) is.
 Your folder will appear as an extension, switch it on if it is off by default. 
