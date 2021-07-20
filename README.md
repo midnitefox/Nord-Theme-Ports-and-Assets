@@ -1,7 +1,7 @@
 # Nord Theme Ports and Assets
 
 
-A collection of various assets I've created using Nord Theme color palette! Currently includes various minimilistic wallpapers and theme settings for the Android-based Reddit client, Infinity.
+A collection of various assets I've created using Nord Theme color palette! Currently includes various minimilistic wallpapers, a custom new tab page for Chromium-based browsers and theme settings for the Android-based Reddit client, Infinity.
 
 
 
