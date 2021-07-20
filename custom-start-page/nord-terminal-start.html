@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>name@home > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #2e3440;
+      color: #c5c8c6;
+      display: flex;
+      font: 22px/1 "Inconsolata", monospace;
+      height: 100%;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #2e3440;
+      border-radius: 2px;
+      box-shadow: 1px 1px 6px #2e3440;
+      color: #c5c8c6;
+      display: flex;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p span {
+      color: #b48ead;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+
+    ul:nth-child(1n) li:first-child {
+      color: #a54242;
+    }
+
+    ul:nth-child(2n) li:first-child {
+      color: #de935f;
+    }
+    
+    ul:nth-child(3n) li:first-child {
+      color: #f0c674;
+    }
+    
+    ul:nth-child(4n) li:first-child {
+      color: #8c9440;
+    }
+
+    ul:nth-child(5n) li:first-child {
+      color: #85678f;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+
+    p #cursor {
+      background-color: #b48ead;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 0; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <p><span>name@home > </span>newtab</p>
+
+  <nav>
+    <ul>
+      <li>general</li>
+      <li><a href="https://old.reddit.com/">reddit</a></li>
+      <li><a href="https://www.twitter.com/">twitter</a></li>
+      <li><a href="https://www.neowin.net/">neowin</a></li>
+    </ul>
+
+    <ul>
+      <li>entertainment</li>
+      <li><a href="https://www.youtube.com">youtube</a></li>
+      <li><a href="https://www.twitch.com/">twitch</a></li>
+      <li><a href="https://www.spotify.com/">music</a></li>
+    </ul>
+
+    <ul>
+      <li>home</li>
+      <li><a href="https://www.gmail.com/">gmail</a></li>
+      <li><a href="https://drive.google.com/drive/my-drive">drive</a></li>
+      <li><a href="https://www.slack.com/">slack</a></li>
+    </ul>
+
+    <ul>
+      <li>misc.</li>
+      <li><a href="https://www.deviantart.com/">deviant-art</a></li>
+      <li><a href="https://wiki.archlinux.org/">Arch-Wiki</a></li>
+      <li><a href="https://github.com/">github</a></li>
+    </ul>
+  </nav>
+
+  <p><span>name@home > </span> <span id="cursor">_</span></p>
+</body>
+</html>

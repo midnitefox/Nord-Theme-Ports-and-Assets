@@ -1,0 +1,10 @@
+{
+    "name": "My custom new tab page",
+    "description": "Overrides the new tab page",
+    "version": "0.1",
+    "incognito": "split",
+    "chrome_url_overrides": {
+      "newtab": "nord-terminal-start.html"
+    },
+    "manifest_version": 2
+  }
