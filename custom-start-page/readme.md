@@ -11,7 +11,7 @@
 
 - Toggle Developer mode in the top right.
 
-- Click Load unpacked and select the folder in which your startpage (and the new manifest.json file) is.
+- Click Load unpacked and select the folder in which your html and manifest.json files are located.
 
 - Your folder will appear as an extension, switch it on if it is off by default. 
 
