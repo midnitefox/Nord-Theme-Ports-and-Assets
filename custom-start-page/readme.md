@@ -1,7 +1,7 @@
 ![custom-startpage-preview](https://user-images.githubusercontent.com/84479769/126268532-7478f421-7f16-4e71-848b-39075106258e.png)
 
 
-Download the zip file and extract somewhere persistent, like 'My Documents'
+Download the zip file and extract somewhere persistent, like 'My Documents'.
 Optional; edit the html to include your own name and category/link preferences.
 Navigate to chrome://extensions/ in your Chrome browser.
 Toggle Developer mode in the top right.
